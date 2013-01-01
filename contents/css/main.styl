@@ -1,0 +1,47 @@
+@import 'nib'
+@import 'normalize.css'
+
+medium = 12px
+gray = #999
+
+body
+  font-family Helvetica Neue, Helvetica, Arial, sans-serif
+  font-size medium
+  text-align center
+  margin 0 10px
+  color #666
+
+h1, h2, h3, h4, h5, h6
+  font-weight 300
+
+a
+  text-decoration none
+  color black
+  &:hover
+    text-decoration underline
+
+p
+  margin 0.5em 0
+p, li
+  line-height 150%
+
+#page
+  max-width 800px
+  margin 0 auto
+  text-align left
+
+  > header
+    h1
+      font-family Oswald, Helvetica Neue, Helvetica, Arial, san-serif
+      display inline-block
+    nav
+      text-transform uppercase
+      &, ul, li
+        display inline-block
+      li
+        margin 0 1em
+
+article
+  margin 2em 0
+  h5
+    color gray
