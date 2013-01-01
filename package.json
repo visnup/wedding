@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "install": "wintersmith build",
+    "deploy": "wintersmith build && pushd build && git add . && git commit -m 'publishing' && git push",
     "test": "wintersmith preview"
   },
   "repository": "http://github.com",
