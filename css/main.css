@@ -1,0 +1,56 @@
+@import 'normalize.css';
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 10px;
+  color: #666;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  margin: 0.5em 0;
+}
+p,
+li {
+  line-height: 150%;
+}
+#page {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+#page > header h1 {
+  font-family: Oswald, Helvetica Neue, Helvetica, Arial, san-serif;
+  display: inline-block;
+}
+#page > header nav {
+  text-transform: uppercase;
+}
+#page > header nav,
+#page > header nav ul,
+#page > header nav li {
+  display: inline-block;
+}
+#page > header nav li {
+  margin: 0 1em;
+}
+article {
+  margin: 2em 0;
+}
+article h5 {
+  color: #999;
+}
