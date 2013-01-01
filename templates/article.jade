@@ -6,5 +6,7 @@ block prepend title
 
 block content
   article.post
-    header: h2= page.title
+    header
+      h2= page.title
+      h5= moment(page.date).format('LLL')
     section.content!= page.html

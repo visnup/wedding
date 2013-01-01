@@ -6,5 +6,5 @@ block content
     article.post
       header
         h2: a(href=article.url)= article.title
-        h5= article.date
+        h5= moment(article.date).format('LLL')
       section.content!= article.html
