@@ -52,6 +52,10 @@ body textarea,
   padding: 3px;
   outline: none;
 }
+body input[type=radio],
+.wufoo input[type=radio] {
+  width: auto;
+}
 body input[type=submit],
 .wufoo input[type=submit] {
   width: auto;
@@ -179,4 +183,10 @@ aside img {
 }
 .wufoo li {
   padding-left: 0 !important;
+}
+.wufoo li div span {
+  display: inline-block;
+}
+.wufoo li label.choice {
+  margin: -15px 1em 0 18px;
 }
