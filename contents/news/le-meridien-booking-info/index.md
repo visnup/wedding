@@ -4,9 +4,9 @@ date: 2012-09-11 09:26
 template: article.jade
 ---
 
-We just received booking info for Le Meridien in Phuket. <strike>You can [book
-online now][1]!</strike> The online booking expired. You'll have to do some
-very manual stuff to book now. Sorry!
+We just received booking info for [Le Meridien][1] in Phuket. <strike>You can
+[book online now][2]!</strike> The online booking expired. You'll have to do
+some very manual stuff to book now. Sorry!
 
 To book:
 
@@ -15,6 +15,8 @@ To book:
 - Fill out [this other form][le meridien cc form]
 - Fax it to +66 76 341 583 (Use [hellofax] to send it for free)
 
+[1]: http://www.starwoodhotels.com/lemeridien/property/overview/index.html?propertyID=1848
+[2]: https://www.starwoodmeeting.com/Book/janeandvisnu
 [le meridien form]: http://cl.ly/1W3A2F0S2k2n/GroupReservationForm_JaneVisnu'sWedding20130305.rtf
 [le meridien cc form]: http://cl.ly/1G2d0N3Q0L1I/CREDIT%20CARD%20AUTHORISATION.doc
 [hellofax]: http://curebit.com/x/5eaDz

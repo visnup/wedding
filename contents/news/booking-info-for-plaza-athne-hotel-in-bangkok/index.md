@@ -13,3 +13,5 @@ We just got booking information for the hotel in Bangkok, [Plaza Athénée][1].
   5. Rate is $140/night plus taxes and fees = $164.78/night
   
 Let us know if you have problems or questions!
+
+[1]: http://www.starwoodhotels.com/lemeridien/property/overview/index.html?propertyID=1846
