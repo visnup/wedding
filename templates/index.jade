@@ -1,10 +1,8 @@
+include article
+
 extends layout
 
 block content
   - var articles = _.chain(contents.news._.directories).pluck('index').compact().sortBy('date').reverse().value()
   each article in articles
-    article.post
-      header
-        h2: a(href=article.url)= article.title
-        h5= moment(article.date).format('LLL')
-      section.content!= article.html
+    mixin article(article)
