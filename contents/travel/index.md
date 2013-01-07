@@ -35,13 +35,17 @@ on March 3rd*.
 **We have a block of rooms available at the [Le Meridien Phuket]**, where we
 will be staying and where the event will be held. Rates range are $194 per
 night (book the [newly renovated deluxe pool view rooms][pool view room];
-they're best). **Please [contact us](mailto:visnup@gmail.com) by Jan 20** to
-book.
+they're best). Booking is complicated (sorry):
 
-If you'd like other options, we recommend staying close by in the Karon region
-of Phuket. Also, Patong Beach is a 15-20 minute car ride away and much livelier
-beach and a for those looking for a more active time and hotels can be even
-more affordable.
+- Fill out [this form][le meridien form]
+- Send it to [Kan Laemsamoot &lt;kan.laemsamoot@lemeridien.com&gt;](mailto:kan.laemsamoot@lemeridien.com?cc=visnup@gmail.com)
+- Fill out [this other form][le meridien cc form]
+- Fax it to +66 76 341 583 (Use [hellofax] to send it for free)
+
+If you'd like other hotel options, we recommend staying close by in the Karon
+region of Phuket. Also, Patong Beach is a 15-20 minute car ride away and much
+livelier beach and a for those looking for a more active time and hotels can be
+even more affordable.
 
 [Hipmunk]: http://www.hipmunk.com/
 [Kayak]: http://www.kayak.com/
@@ -54,4 +58,6 @@ more affordable.
 [book plaza athenee]: https://www.starwoodmeeting.com/Book/WDJaneVisnu
 [Le Meridien Phuket]: http://www.starwoodhotels.com/lemeridien/property/overview/index.html?propertyID=1848
 [pool view room]: http://www.starwoodhotels.com/lemeridien/property/rooms/room_class_detail.html?propertyID=1848&roomClassId=1005070531
-[book le meridien]: https://www.starwoodmeeting.com/Book/janeandvisnu
+[le meridien form]: http://cl.ly/1W3A2F0S2k2n/GroupReservationForm_JaneVisnu'sWedding20130305.rtf
+[le meridien cc form]: http://cl.ly/1G2d0N3Q0L1I/CREDIT%20CARD%20AUTHORISATION.doc
+[hellofax]: http://curebit.com/x/5eaDz
