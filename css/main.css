@@ -26,7 +26,7 @@ a:hover {
   text-decoration: underline;
 }
 p {
-  margin: 0.5em 0;
+  margin: 1em 0;
 }
 p,
 li {
@@ -75,7 +75,7 @@ body input[type=submit]:hover,
 .wufoo input[type=submit]:hover,
 body input[type=submit]:active,
 .wufoo input[type=submit]:active {
-  background-color: #c2c9d6 !important;
+  background-color: #e0e4eb !important;
 }
 body input[type=submit]:active,
 .wufoo input[type=submit]:active {
@@ -107,6 +107,51 @@ article {
 }
 article h5 {
   color: #999;
+}
+aside {
+  float: right;
+  line-height: 150%;
+  margin-left: 20px;
+}
+aside h4 {
+  margin: 1px 0 0;
+}
+aside ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+aside img {
+  -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.3);
+  box-shadow: 0 0 1px rgba(0,0,0,0.3);
+  padding: 3px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+table.calendar {
+  width: 100%;
+}
+table.calendar td {
+  vertical-align: top;
+  border: solid 1px #ccc;
+  padding: 5px;
+  width: 14%;
+  height: 100px;
+}
+table.calendar .event {
+  font-size: 10px;
+  margin: 3px 0;
+  background-color: #e0e4eb;
+  border: solid 1px rgba(0,0,0,0.1);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0 3px;
+}
+table.calendar .event.wedding {
+  background-color: #e0ebe0;
+}
+table.calendar .event.flight {
+  background-color: #ebe0e0;
 }
 .wufoo #header {
   display: none;
