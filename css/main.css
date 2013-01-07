@@ -91,6 +91,10 @@ body input[type=submit]:active,
   font-family: Oswald, Helvetica Neue, Helvetica, Arial, san-serif;
   display: inline-block;
 }
+#page > header h1,
+#page > header nav ul {
+  margin-bottom: 0;
+}
 #page > header nav {
   text-transform: uppercase;
 }
@@ -128,17 +132,22 @@ aside img {
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-table.calendar {
-  width: 100%;
+.calendar h3 {
+  margin: 0.5em 0;
 }
-table.calendar td {
+.calendar table {
+  width: 100%;
+  margin-bottom: 2em;
+}
+.calendar table td {
   vertical-align: top;
   border: solid 1px #ccc;
   padding: 5px;
   width: 14%;
   height: 100px;
+  position: relative;
 }
-table.calendar .event {
+.calendar table .event {
   font-size: 10px;
   margin: 3px 0;
   background-color: #e0e4eb;
@@ -147,11 +156,23 @@ table.calendar .event {
   border-radius: 3px;
   padding: 0 3px;
 }
-table.calendar .event.wedding {
+.calendar table .event.wedding {
   background-color: #e0ebe0;
 }
-table.calendar .event.flight {
+.calendar table .event.flight {
   background-color: #ebe0e0;
+}
+.calendar table .event.hotel {
+  background-color: #e6e6e6;
+  position: absolute;
+  bottom: 3px;
+  left: 5px;
+}
+.calendar table .event.hotel.plaza-athenee {
+  width: 388%;
+}
+.calendar table .event.hotel.le-meridien {
+  width: 286%;
 }
 .wufoo #header {
   display: none;
