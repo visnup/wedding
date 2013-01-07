@@ -1,8 +1,12 @@
 @import 'nib'
 @import 'normalize.css'
 
+small = 10px
 medium = 12px
 gray = #999
+orange = hsl(0, 20%, 90%)
+blue = hsl(220, 20%, 90%)
+green = hsl(120, 20%, 90%)
 
 body, input, textarea, label, legend
   font-family Helvetica Neue, Helvetica, Arial, sans-serif !important
@@ -51,7 +55,7 @@ body, .wufoo
     box-shadow 0 0 3px hsla(0, 0%, 0%, 0.1)
     transition background-color linear 200ms
     &:hover, &:active
-      background-color hsl(220, 20%, 80%) !important
+      background-color blue !important
     &:active
       box-shadow 0 2px 5px hsla(0, 0%, 0%, 0.1) inset
 
@@ -90,6 +94,26 @@ aside
     box-shadow 0 0 1px hsla(0, 0%, 0%, 0.3)
     padding 3px
     border-radius 2px
+
+table.calendar
+  width 100%
+  td
+    vertical-align top
+    border solid 1px hsl(0, 0%, 80%)
+    padding 5px
+    width 14%
+    height 100px
+  .event
+    font-size small
+    margin 3px 0
+    background-color blue
+    border solid 1px hsla(0, 0%, 0%, 0.1)
+    border-radius 3px
+    padding 0 3px
+  .event.wedding
+    background-color green
+  .event.flight
+    background-color orange
 
 .wufoo
   #header
