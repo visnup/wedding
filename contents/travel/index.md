@@ -6,6 +6,15 @@ title: Travel Info
 Flights
 -------
 
+<aside>
+<h4>Important Dates</h4>
+<ul>
+  <li>Feb 28 – Arrive in Bangkok</li>
+  <li>Mar 03 – Fly to Phuket</li>
+  <li>Mar 06 – Return home</li>
+</ul>
+</aside>
+
 When booking travel yourself, we recommend [Hipmunk], [Kayak], [Orbitz], or
 [Priceline]. Expect prices around $1,100 round-trip from SF. If you find a
 great deal, feel free to share! For domestic travel, from Bangkok to Phuket,
