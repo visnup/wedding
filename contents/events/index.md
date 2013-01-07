@@ -1,5 +1,5 @@
 ---
-template: events.jade
+template: page.jade
 title: Schedule
 ---
 

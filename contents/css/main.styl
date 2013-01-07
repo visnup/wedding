@@ -69,6 +69,8 @@ body, .wufoo
     h1
       font-family Oswald, Helvetica Neue, Helvetica, Arial, san-serif
       display inline-block
+    h1, nav ul
+      margin-bottom 0
     nav
       text-transform uppercase
       &, ul, li
@@ -96,36 +98,39 @@ aside
     padding 3px
     border-radius 2px
 
-table.calendar
-  width 100%
-  margin-bottom 3em
-  td
-    vertical-align top
-    border solid 1px hsl(0, 0%, 80%)
-    padding 5px
-    width 14%
-    height 100px
-    position relative
-  .event
-    font-size small
-    margin 3px 0
-    background-color blue
-    border solid 1px hsla(0, 0%, 0%, 0.1)
-    border-radius 3px
-    padding 0 3px
-  .event.wedding
-    background-color green
-  .event.flight
-    background-color orange
-  .event.hotel
-    background-color light-gray
-    position absolute
-    bottom 3px
-    left 5px
-    &.plaza-athenee
-      width 388%
-    &.le-meridien
-      width 286%
+.calendar
+  h3
+    margin 0.5em 0
+  table
+    width 100%
+    margin-bottom 2em
+    td
+      vertical-align top
+      border solid 1px hsl(0, 0%, 80%)
+      padding 5px
+      width 14%
+      height 100px
+      position relative
+    .event
+      font-size small
+      margin 3px 0
+      background-color blue
+      border solid 1px hsla(0, 0%, 0%, 0.1)
+      border-radius 3px
+      padding 0 3px
+    .event.wedding
+      background-color green
+    .event.flight
+      background-color orange
+    .event.hotel
+      background-color light-gray
+      position absolute
+      bottom 3px
+      left 5px
+      &.plaza-athenee
+        width 388%
+      &.le-meridien
+        width 286%
 
 .wufoo
   #header
