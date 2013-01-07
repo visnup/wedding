@@ -4,6 +4,7 @@
 small = 10px
 medium = 12px
 gray = #999
+light-gray = hsl(0, 0%, 90%)
 orange = hsl(0, 20%, 90%)
 blue = hsl(220, 20%, 90%)
 green = hsl(120, 20%, 90%)
@@ -97,12 +98,14 @@ aside
 
 table.calendar
   width 100%
+  margin-bottom 3em
   td
     vertical-align top
     border solid 1px hsl(0, 0%, 80%)
     padding 5px
     width 14%
     height 100px
+    position relative
   .event
     font-size small
     margin 3px 0
@@ -114,6 +117,15 @@ table.calendar
     background-color green
   .event.flight
     background-color orange
+  .event.hotel
+    background-color light-gray
+    position absolute
+    bottom 3px
+    left 5px
+    &.plaza-athenee
+      width 388%
+    &.le-meridien
+      width 286%
 
 .wufoo
   #header
