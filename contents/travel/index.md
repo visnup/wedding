@@ -29,6 +29,8 @@ Accommodations
 
 ### Bangkok (Feb 28 (or earlier) - March 3)
 
+<aside><img src="/images/plaza-athenee.jpg" width="171" height="115" /></aside>
+
 **We have a block of rooms with [Plaza Athénée]**. Rooms range from $160-$230
 per night. **You can [book online now][book plaza athenee]**.
 
@@ -40,6 +42,8 @@ Feel free to arrive as early as you wish but *we will be departing for Phuket
 on March 3rd*.
 
 ### Phuket (March 3 - 6 (or later))
+
+<aside><img src="/images/mali-wing.jpg" width="171" height="115" /></aside>
 
 **We have a block of rooms available at the [Le Meridien Phuket]**, where we
 will be staying and where the event will be held. Rates range are $194 per
