@@ -35,7 +35,8 @@ on March 3rd*.
 **We have a block of rooms available at the [Le Meridien Phuket]**, where we
 will be staying and where the event will be held. Rates range are $194 per
 night (book the [newly renovated deluxe pool view rooms][pool view room];
-they're best). **You can [book online now][book le meridien]**.
+they're best). **Please [contact us](mailto:visnup@gmail.com) by Jan 20** to
+book.
 
 If you'd like other options, we recommend staying close by in the Karon region
 of Phuket. Also, Patong Beach is a 15-20 minute car ride away and much livelier
