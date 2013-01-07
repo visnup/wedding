@@ -28,11 +28,11 @@ cocktail reception in the evening.
 Phuket
 ------
 
-### Mar 3 – Depart for Phuket, Rehearsal Dinner
+### Mar 3 – Depart for Phuket
 
 All we have to do is get everyone to Phuket this day. So, wake up early and eat
 the included hotel breakfast and get moving to the airport. Once we get to
-Phuket and settle in, we'll meet you again for more food.
+Phuket and settle in, we'll meet up and go find some food.
 
 ### Mar 4 – Koh Phi Phi
 
