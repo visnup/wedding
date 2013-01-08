@@ -111,6 +111,53 @@ body input[type=submit]:active,
 #page > header nav li {
   margin: 0 1em;
 }
+#page .calendar h3 {
+  margin: 0.5em 0;
+}
+#page .calendar table {
+  width: 100%;
+  margin-bottom: 2em;
+  table-layout: fixed;
+}
+#page .calendar table td {
+  vertical-align: top;
+  border: solid 1px #ccc;
+  padding: 5px;
+  width: 14%;
+  height: 120px;
+  position: relative;
+}
+#page .calendar table .event {
+  font-size: 10px;
+  margin: 3px 0;
+  background-color: #e0e4eb;
+  border: solid 1px rgba(0,0,0,0.1);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0 3px 0 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+#page .calendar table .event.wedding {
+  background-color: #e0ebe0;
+}
+#page .calendar table .event.flight {
+  background-color: #ebe0e0;
+}
+#page .calendar table .event.hotel {
+  background-color: #e6e6e6;
+  position: absolute;
+  bottom: 3px;
+  left: 5px;
+}
+#page .calendar table .event.hotel.plaza-athenee {
+  width: 393%;
+}
+#page .calendar table .event.hotel.le-meridien {
+  width: 289%;
+}
 article {
   margin: 0 0 2em;
 }
@@ -137,49 +184,8 @@ aside img {
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-.calendar h3 {
-  margin: 0.5em 0;
-}
-.calendar table {
-  width: 100%;
-  margin-bottom: 2em;
-}
-.calendar table td {
-  vertical-align: top;
-  border: solid 1px #ccc;
-  padding: 5px;
-  width: 14%;
-  height: 120px;
-  position: relative;
-}
-.calendar table .event {
-  font-size: 10px;
-  margin: 3px 0;
-  background-color: #e0e4eb;
-  border: solid 1px rgba(0,0,0,0.1);
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  padding: 0 3px 0 1px;
-}
-.calendar table .event.wedding {
-  background-color: #e0ebe0;
-}
-.calendar table .event.flight {
-  background-color: #ebe0e0;
-}
-.calendar table .event.hotel {
-  background-color: #e6e6e6;
-  position: absolute;
-  bottom: 3px;
-  left: 5px;
-}
-.calendar table .event.hotel.plaza-athenee {
-  width: 393%;
-}
-.calendar table .event.hotel.le-meridien {
-  width: 289%;
-}
-iframe {
+iframe,
+iframe + p {
   float: left;
 }
 .wufoo #header {
@@ -194,13 +200,29 @@ iframe {
 .wufoo li label.choice {
   margin: -15px 1em 0 18px;
 }
+@media (max-width: 800px) {
+  iframe + p {
+    margin-right: 20px;
+  }
+  iframe + p + aside {
+    float: none;
+    margin-left: 0;
+  }
+}
 @media (max-width: 600px) {
+  aside {
+    float: none;
+    margin-left: 0;
+  }
   [class^="icon-"]:before,
   [class*=" icon-"]:before {
     display: none;
   }
-  aside {
-    float: none;
-    margin-left: 0;
+  .calendar table td {
+    height: 90px !important;
+  }
+  .calendar table td .event {
+    font-size: 9px !important;
+    font-family: Verdana, sans-serif;
   }
 }
