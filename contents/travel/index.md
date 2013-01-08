@@ -15,10 +15,11 @@ Flights
 </ul>
 </aside>
 
-When booking travel yourself, we recommend [Hipmunk], [Kayak], [Orbitz], or
-[Priceline]. Expect prices around $1,100 round-trip from SF. If you find a
-great deal, feel free to share! For domestic travel, from Bangkok to Phuket,
-check out [AirAsia] or [Bangkok Airways].
+When booking travel, we recommend [Hipmunk], [Kayak], [Orbitz], or [Priceline].
+Make sure to pick *Multi-city* when using those websites to get the best deals.
+Expect prices around $1,100 round-trip from SF. If you find a great deal, feel
+free to share! For domestic travel, from Bangkok to Phuket, check out [AirAsia]
+or [Bangkok Airways].
 
 You'll want to be in Bangkok probably by Feb 28 and things will wrap up in
 Phuket by Mar 6. Remember the time zone differences (you lose a whole day going
