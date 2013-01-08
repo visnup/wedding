@@ -1,0 +1,154 @@
+{
+  "name": "fontello",
+  "glyphs": [
+    {
+      "search": [
+        "home"
+      ],
+      "code": 8962,
+      "uid": "513ac180ff85bd275f2b736720cbbf5e",
+      "css": "home",
+      "orig_css": "home",
+      "orig_code": 8962,
+      "src": "entypo",
+      "from": 8962
+    },
+    {
+      "search": [
+        "star"
+      ],
+      "code": 9733,
+      "uid": "25b34dea4784f72c710454f32ff8fa2b",
+      "css": "star",
+      "orig_css": "star",
+      "orig_code": 9733,
+      "src": "entypo",
+      "from": 9733
+    },
+    {
+      "search": [
+        "heart"
+      ],
+      "code": 9829,
+      "from": 9829,
+      "uid": "hi76m8qggwn5lbl286oeqp64q0n8kusy",
+      "css": "heart",
+      "orig_css": "heart",
+      "orig_code": 9829,
+      "src": "typicons"
+    },
+    {
+      "search": [
+        "flight",
+        "plane",
+        "airplane",
+        "fly"
+      ],
+      "code": 9992,
+      "uid": "6e8aea8fff9525dfc5149f0c03669091",
+      "css": "flight",
+      "orig_css": "flight",
+      "orig_code": 9992,
+      "src": "entypo",
+      "from": 9992
+    },
+    {
+      "search": [
+        "lifebuoy"
+      ],
+      "code": 59272,
+      "uid": "2f9f67ee4354feef8c1f51e03bac6ef3",
+      "css": "lifebuoy",
+      "orig_css": "lifebuoy",
+      "orig_code": 59272,
+      "src": "entypo",
+      "from": 59272
+    },
+    {
+      "search": [
+        "giraffe"
+      ],
+      "code": 59419,
+      "uid": "8815bdcacab2495dd436f029e78a15d7",
+      "css": "giraffe",
+      "orig_css": "giraffe",
+      "orig_code": 59419,
+      "src": "maki",
+      "from": 59419
+    },
+    {
+      "search": [
+        "pitch"
+      ],
+      "code": 59434,
+      "uid": "5040789d726273a910ac5b59e9d8227a",
+      "css": "pitch",
+      "orig_css": "pitch",
+      "orig_code": 59434,
+      "src": "maki",
+      "from": 59434
+    },
+    {
+      "search": [
+        "restaurant"
+      ],
+      "code": 59442,
+      "uid": "5cc58545bb38c912940470480d3df145",
+      "css": "restaurant",
+      "orig_css": "restaurant",
+      "orig_code": 59442,
+      "src": "maki",
+      "from": 59442
+    },
+    {
+      "search": [
+        "swimming"
+      ],
+      "code": 59448,
+      "uid": "d368c9b110be1daa21f992afca084b8c",
+      "css": "swimming",
+      "orig_css": "swimming",
+      "orig_code": 59448,
+      "src": "maki",
+      "from": 59448
+    },
+    {
+      "search": [
+        "building"
+      ],
+      "code": 61687,
+      "uid": "3d1e04316a48ace4e2b81be58343a41c",
+      "css": "building",
+      "orig_css": "building",
+      "orig_code": 61687,
+      "src": "fontawesome",
+      "from": 61687
+    },
+    {
+      "search": [
+        "glass"
+      ],
+      "code": 127864,
+      "from": 127864,
+      "uid": "cfaa8fbbdcc7bb8d636cb974aad1f9b9",
+      "css": "glass",
+      "orig_css": "glass",
+      "orig_code": 127864,
+      "src": "fontawesome"
+    },
+    {
+      "search": [
+        "profile",
+        "contact",
+        "user"
+      ],
+      "code": 128100,
+      "uid": "bbd66ef66bb8fa9edde54d9a90b89150",
+      "css": "user",
+      "orig_css": "user",
+      "orig_code": 128100,
+      "src": "entypo",
+      "from": 128100
+    }
+  ]
+}
