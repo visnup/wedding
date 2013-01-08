@@ -2,6 +2,7 @@
 @import 'normalize.css'
 @import 'fontello.css'
 
+x-small = 9px
 small = 10px
 medium = 12px
 gray = #999
@@ -80,6 +81,43 @@ body, .wufoo
         display inline-block
       li
         margin 0 1em
+  .calendar
+    h3
+      margin 0.5em 0
+    table
+      width 100%
+      margin-bottom 2em
+      table-layout fixed
+      td
+        vertical-align top
+        border solid 1px hsl(0, 0%, 80%)
+        padding 5px
+        width 14%
+        height 120px
+        position relative
+      .event
+        font-size small
+        margin 3px 0
+        background-color blue
+        border solid 1px hsla(0, 0%, 0%, 0.1)
+        border-radius 3px
+        padding 0 3px 0 1px
+        white-space nowrap
+        overflow hidden
+        text-overflow ellipsis
+      .event.wedding
+        background-color green
+      .event.flight
+        background-color orange
+      .event.hotel
+        background-color light-gray
+        position absolute
+        bottom 3px
+        left 5px
+        &.plaza-athenee
+          width 393%
+        &.le-meridien
+          width 289%
 
 article
   margin 0 0 2em
@@ -101,41 +139,7 @@ aside
     padding 3px
     border-radius 2px
 
-.calendar
-  h3
-    margin 0.5em 0
-  table
-    width 100%
-    margin-bottom 2em
-    td
-      vertical-align top
-      border solid 1px hsl(0, 0%, 80%)
-      padding 5px
-      width 14%
-      height 120px
-      position relative
-    .event
-      font-size small
-      margin 3px 0
-      background-color blue
-      border solid 1px hsla(0, 0%, 0%, 0.1)
-      border-radius 3px
-      padding 0 3px 0 1px
-    .event.wedding
-      background-color green
-    .event.flight
-      background-color orange
-    .event.hotel
-      background-color light-gray
-      position absolute
-      bottom 3px
-      left 5px
-      &.plaza-athenee
-        width 393%
-      &.le-meridien
-        width 289%
-
-iframe
+iframe, iframe + p
   float left
 
 .wufoo
@@ -148,10 +152,22 @@ iframe
     label.choice
       margin -15px 1em 0 18px
 
+@media (max-width: 800px)
+  iframe + p
+    margin-right 20px
+  iframe + p + aside
+    float none
+    margin-left 0
+
 @media (max-width: 600px)
-  [class^="icon-"]:before,
-  [class*=" icon-"]:before
-    display none
   aside
     float none
     margin-left 0
+  [class^="icon-"]:before,
+  [class*=" icon-"]:before
+    display none
+  .calendar table td
+    height 90px !important
+    .event
+      font-size x-small !important
+      font-family Verdana, sans-serif
