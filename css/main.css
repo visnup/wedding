@@ -153,7 +153,7 @@ body input[type=submit]:active,
   left: 5px;
 }
 #page .calendar table .event.hotel.plaza-athenee {
-  width: 393%;
+  width: 391%;
 }
 #page .calendar table .event.hotel.le-meridien {
   width: 289%;
@@ -210,6 +210,10 @@ iframe + p {
   }
 }
 @media (max-width: 600px) {
+  nav ul {
+    padding: 0;
+    margin-left: -1em;
+  }
   aside {
     float: none;
     margin-left: 0;
