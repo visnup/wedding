@@ -1,6 +1,7 @@
 ---
 template: page.jade
 title: RSVP
+calendar: false
 ---
 
 Please RSVP

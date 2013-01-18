@@ -22,36 +22,37 @@ html( lang="en" )
             li: a( href="/" ) News
             li: a( href="/registry/" ) Registry
             li: a( href="http://blog.theglamourist.com/post/20056250911/the-proposal" ) The Proposal
-          .calendar
-            h3 February 27 &mdash; March 6, 2013
-            table
-              tr
-                td Sun 24
-                td Mon 25
-                td Tue 26
-                td Wed 27
-                  .event.flight.icon-flight Arrive Bangkok
-                  .event.hotel.icon-home.plaza-athenee Plaza Athénée (Bangkok)
-                td.active Thu 28
-                  .event.icon-pitch Bachelor Party
-                td.active Fri 1
-                td.active Sat 2
-                  .event.wedding.icon-user Monk Blessing
-                  .event.wedding.icon-heart Water Ceremony
-                  .event.wedding.icon-glass Cocktail Reception
-              tr
-                td.active Sun 3
-                  .event.flight.icon-flight Bangkok &rarr; Phuket
-                  .event.hotel.icon-home.le-meridien Le Meridien (Phuket)
-                td.active 4
-                  .event.icon-swimming Koh Phi Phi
-                td.active 5
-                  .event.wedding.icon-heart Ceremony
-                  .event.wedding.icon-restaurant Reception
-                td.active 6
-                  .event.flight.icon-flight Depart Phuket
-                td 7
-                td 8
-                td 9
+          unless page.metadata.calendar === false
+            .calendar
+              h3 February 27 &mdash; March 6, 2013
+              table
+                tr
+                  td Sun 24
+                  td Mon 25
+                  td Tue 26
+                  td Wed 27
+                    .event.flight.icon-flight Arrive Bangkok
+                    .event.hotel.icon-home.plaza-athenee Plaza Athénée (Bangkok)
+                  td.active Thu 28
+                    .event.icon-pitch Bachelor Party
+                  td.active Fri 1
+                  td.active Sat 2
+                    .event.wedding.icon-user Monk Blessing
+                    .event.wedding.icon-heart Water Ceremony
+                    .event.wedding.icon-glass Cocktail Reception
+                tr
+                  td.active Sun 3
+                    .event.flight.icon-flight Bangkok &rarr; Phuket
+                    .event.hotel.icon-home.le-meridien Le Meridien (Phuket)
+                  td.active 4
+                    .event.icon-swimming Koh Phi Phi
+                  td.active 5
+                    .event.wedding.icon-heart Ceremony
+                    .event.wedding.icon-restaurant Reception
+                  td.active 6
+                    .event.flight.icon-flight Depart Phuket
+                  td 7
+                  td 8
+                  td 9
       #content
         block content
