@@ -204,7 +204,7 @@ iframe + p {
   display: none;
 }
 .wufoo li.error {
-  background-color: none;
+  background-color: transparent !important;
 }
 @media (max-width: 800px) {
   iframe + p {
