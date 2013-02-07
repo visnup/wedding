@@ -200,6 +200,12 @@ iframe + p {
 .wufoo li label.choice {
   margin: -15px 1em 0 18px;
 }
+.wufoo #errorLi {
+  display: none;
+}
+.wufoo li.error {
+  background-color: none;
+}
 @media (max-width: 800px) {
   iframe + p {
     margin-right: 20px;
