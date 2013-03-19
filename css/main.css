@@ -111,6 +111,9 @@ body input[type=submit]:active,
 #page > header nav li {
   margin: 0 1em;
 }
+#page .calendar {
+  display: none;
+}
 #page .calendar h3 {
   margin: 0.5em 0;
 }
